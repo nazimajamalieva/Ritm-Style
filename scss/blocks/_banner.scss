@@ -1,0 +1,50 @@
+@import "../vars";
+.banner {
+  margin-bottom: 150px;
+
+  &-container {
+    padding-top: 136px;
+    padding-bottom: 210px;
+    background-image: url("../images/bg-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+  }
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 587px;
+    margin: 0 auto;
+    text-align: center;
+    gap: 40px;
+  }
+
+  &-title {
+    margin: 0;
+    color: $white;
+    font-family: $title-font;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  &-subtitle {
+    margin: 0;
+    order: -1;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+
+    &::before {
+      background-image: url(../images/title-leaf-white-left.svg);
+    }
+    &::after {
+      background-image: url(../images/title-leaf-white-right.svg);
+    }
+  }
+}
