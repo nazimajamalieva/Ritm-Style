@@ -1,6 +1,7 @@
 @import "../vars";
 
 .title {
+  display: inline-block;
   color: $white;
   font-family: $title-font;
   font-size: 64px;
