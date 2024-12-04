@@ -210,7 +210,7 @@ body {
 .session-item:first-child {
   grid-row-start: 1;
   grid-row-end: 3;
-  background-image: url(/images/bg-session.jpg);
+  background-image: url(../images/bg-session.jpg);
   background-position: center;
   background-size: cover;
   padding: 50px;
