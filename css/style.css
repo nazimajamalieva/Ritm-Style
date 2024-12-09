@@ -440,3 +440,20 @@ body {
   border-radius: 3px;
   padding: 9px 15px;
 }
+
+.footer {
+  padding-top: 106px;
+  padding-bottom: 93px;
+  color: #fff;
+}
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
