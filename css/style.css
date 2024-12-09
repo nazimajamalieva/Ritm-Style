@@ -224,3 +224,82 @@ body {
   line-height: 140%;
   text-align: left;
 }
+
+.about-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.about-title {
+  margin-bottom: 100px;
+}
+.about-container {
+  margin-bottom: 165px;
+}
+.about-subtitle {
+  margin: 0 0 30px 0;
+  color: #fff;
+  font-family: "Roboto", serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.about-container p {
+  color: #fff;
+  font-family: "Roboto", serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.about-item {
+  background-position: center;
+  background-size: cover;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 24px;
+}
+.about-item:nth-child(2) .about-image {
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+}
+.about-item:nth-child(1) .about-image {
+  padding-right: 110px;
+}
+.about-item:nth-child(2) .about-image {
+  padding-left: 110px;
+}
+.about-item:nth-child(1) .about-desk {
+  padding-left: 110px;
+}
+.about-item:nth-child(2) .about-desk {
+  padding-left: 60px;
+  padding-right: 110px;
+}
+.about-image {
+  width: 50%;
+  height: 365px;
+}
+.about-image img {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.about-desk {
+  width: 50%;
+}
