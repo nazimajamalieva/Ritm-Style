@@ -1,0 +1,13 @@
+@import "../vars";
+
+.footer {
+  padding-top: 106px;
+  padding-bottom: 93px;
+  color: $white;
+
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
